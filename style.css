@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap");
+.temaPrincipal {
+  background: black;
+  font-family: "Fredoka", sans-serif;
+}
+body {
+  font-family: "Fredoka", sans-serif;
+}
+.containerPaiDeTodos {
+  width: 250px;
+  color: #1c1c1c;
+  margin: 40px auto;
+  padding: 64px;
+  border-radius: 20px;
+}
+.containerCabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+#resultado {
+  display: flex;
+  width: 250px;
+  height: 70px;
+  color: white;
+  background: hsl(224, 36%, 15%);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  align-items: center;
+  font-family: "Fredoka", sans-serif;
+}
+.calculadora {
+  padding: 10px;
+  border-radius: 5px;
+}
+.teclaNum {
+  background: hsl(30, 25%, 89%);
+  box-shadow: 1px 1px 2px hsl(28, 16%, 65%);
+  color: hsl(221, 14%, 31%);
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  font-family: "Fredoka", sans-serif;
+}
+.teclaDeletar {
+  background-color: hsl(225, 21%, 49%);
+  box-shadow: 1px 1px 2px hsl(224, 28%, 35%);
+  color: white;
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  font-family: "Fredoka", sans-serif;
+}
+.teclaResetar {
+  background: hsl(225, 21%, 49%);
+  box-shadow: 1px 1px 2px hsl(224, 28%, 35%);
+  color: white;
+  width: 116px;
+  height: 40px;
+  border-radius: 5px;
+  font-family: "Fredoka", sans-serif;
+}
+.teclaIgual {
+  background: hsl(6, 63%, 50%);
+  box-shadow: 1px 1px 2px hsl(6, 70%, 34%);
+  color: hsl(0, 0, 100%);
+  width: 116px;
+  height: 40px;
+  border-radius: 5px;
+  font-family: "Fredoka", sans-serif;
+}
+.tema {
+  display: flex;
+  margin-left: 10px;
+}
+.tema button {
+  align-self: flex-end;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  background: #ecf4ff;
+  border: 2px solid #0e1d2f;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-size: 10px;
+  cursor: pointer;
+  font-family: "Fredoka", sans-serif;
+}
+.calculadora {
+  background: hsl(223, 31%, 20%);
+  font-family: "Fredoka", sans-serif;
+}
+
+.linhas {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+/* linhass */
+#linha1 {
+  display: flex;
+
+  gap: 1rem;
+}
+
+#linha2 {
+  display: flex;
+  gap: 1rem;
+}
+
+#linha3 {
+  display: flex;
+  gap: 1rem;
+}
+
+#linha4 {
+  display: flex;
+  gap: 1rem;
+}
+
+#linha5 {
+  display: flex;
+  gap: 1rem;
+}
+
+/* rodapé */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+
+  font-family: "Fredoka", sans-serif;
+}
