@@ -1,0 +1,54 @@
+/* body */
+.tema1 {
+  background: hsl(222, 26%, 31%);
+}
+/* screen */
+.tema1 #resultado {
+  background: hsl(224, 36%, 15%);
+  color: white;
+}
+/* teclado da calc */
+.tema1 .calculadora {
+  background: hsl(223, 31%, 20%);
+}
+
+/* tecla da calc */
+.tema1 .teclaNum {
+  background: hsl(30, 25%, 89%);
+  box-shadow: 1px 1px 2px hsl(28, 16%, 65%);
+  color: hsl(221, 14%, 31%);
+}
+.tema1 .teclaDeletar {
+  background-color: hsl(225, 21%, 49%);
+  box-shadow: 1px 1px 2px hsl(224, 28%, 35%);
+  color: white;
+}
+.tema1 .teclaResetar {
+  background: hsl(225, 21%, 49%);
+  box-shadow: 1px 1px 2px hsl(224, 28%, 35%);
+  color: white;
+}
+.tema1 .teclaIgual {
+  background: hsl(6, 63%, 50%);
+  box-shadow: 1px 1px 2px hsl(6, 70%, 34%);
+  color: hsl(0, 0, 100%);
+}
+
+.tema1 #tema1 {
+  background: hsl(223, 31%, 20%);
+  font-family: "Fredoka", sans-serif;
+}
+
+.tema1 #titulo {
+  color: white;
+  font-family: "Fredoka", sans-serif;
+}
+
+.tema1 #buttonTema1 {
+  background: red;
+  margin-right: 10px;
+  font-family: "Fredoka", sans-serif;
+}
+.tema1 .tema div {
+  color: white;
+}
