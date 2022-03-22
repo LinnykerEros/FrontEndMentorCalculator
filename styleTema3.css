@@ -1,0 +1,47 @@
+/* body */
+.tema3 {
+  background: hsl(268, 75%, 9%);
+}
+/* screen */
+.tema3 #resultado {
+  background: hsl(268, 71%, 12%);
+  color: hsl(52, 100%, 62%);
+}
+/* teclado da calc */
+.tema3 .calculadora {
+  background: hsl(268, 71%, 12%);
+}
+
+/* tecla da calc */
+.tema3 .teclaNum {
+  background: hsl(268, 47%, 21%);
+  box-shadow: 1px 1px 2px hsl(290, 70%, 36%);
+  color: hsl(52, 100%, 62%);
+}
+.tema3 .teclaDeletar {
+  background: hsl(281, 89%, 26%);
+  box-shadow: 1px 1px 2px hsl(285, 91%, 52%);
+}
+.tema3 .teclaResetar {
+  background: hsl(281, 89%, 26%);
+  box-shadow: 1px 1px 2px hsl(285, 91%, 52%);
+}
+.tema3 .teclaIgual {
+  background: hsl(176, 100%, 44%);
+  box-shadow: 1px 1px 2px hsl(177, 92%, 70%);
+}
+
+.tema3 #tema1 {
+  background: hsl(223, 31%, 20%);
+}
+
+.tema3 #titulo {
+  color: hsl(52, 100%, 62%);
+}
+.tema3 #buttonTema3 {
+  background: red;
+  margin-right: 10px;
+}
+.tema3 .tema div {
+  color: hsl(52, 100%, 62%);
+}
