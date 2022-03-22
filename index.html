@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Calculator app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleTema1.css" />
+    <link rel="stylesheet" href="styleTema2.css" />
+    <link rel="stylesheet" href="styleTema3.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body class="tema1">
+    <div class="containerPaiDeTodos">
+      <header class="containerCabecalho">
+        <div id="titulo">Calculadora</div>
+        <div class="tema">
+          <div>Tema:</div>
+
+          <button class="tema1" id="buttonTema1" onclick="buttonTema('1')">
+            1
+          </button>
+          <button class="tema1" id="buttonTema2" onclick="buttonTema('2')">
+            2
+          </button>
+          <button class="tema1" id="buttonTema3" onclick="buttonTema('3')">
+            3
+          </button>
+        </div>
+      </header>
+      <div>
+        <p id="resultado"></p>
+      </div>
+      <div class="calculadora">
+        <div class="linhas">
+          <div id="linha1">
+            <button class="teclaNum" id="button7" onclick="inserirNum('7')">
+              7
+            </button>
+            <button class="teclaNum" id="button8" onclick="inserirNum('8')">
+              8
+            </button>
+            <button class="teclaNum" id="button9" onclick="inserirNum('9')">
+              9
+            </button>
+            <button class="teclaDeletar" id="buttonDel" onclick="del()">
+              DEL
+            </button>
+          </div>
+          <div id="linha2">
+            <button class="teclaNum" id="button4" onclick="inserirNum('4')">
+              4
+            </button>
+            <button class="teclaNum" id="button5" onclick="inserirNum('5')">
+              5
+            </button>
+            <button class="teclaNum" id="button6" onclick="inserirNum('6')">
+              6
+            </button>
+            <button class="teclaNum" id="buttonSoma" onclick="inserirNum('+')">
+              +
+            </button>
+          </div>
+          <div id="linha3">
+            <button class="teclaNum" id="button1" onclick="inserirNum('1')">
+              1
+            </button>
+            <button class="teclaNum" id="button2" onclick="inserirNum('2')">
+              2
+            </button>
+            <button class="teclaNum" id="button3" onclick="inserirNum('3')">
+              3
+            </button>
+            <button
+              class="teclaNum"
+              id="buttonDiminuir"
+              onclick="inserirNum('-')"
+            >
+              -
+            </button>
+          </div>
+
+          <div id="linha4">
+            <button class="teclaNum" id="buttonPonto" onclick="inserirNum('.')">
+              .
+            </button>
+            <button class="teclaNum" id="button0" onclick="inserirNum('0')">
+              0
+            </button>
+            <button
+              class="teclaNum"
+              id="buttonDivisao"
+              onclick="inserirNum('/')"
+            >
+              /
+            </button>
+            <button
+              class="teclaNum"
+              id="buttonMultiplicar"
+              onclick="inserirNum('*')"
+            >
+              x
+            </button>
+          </div>
+          <div id="linha5">
+            <button class="teclaResetar" id="buttonReset" onclick="clean()">
+              RESET
+            </button>
+            <button class="teclaIgual" id="buttonIgual" onclick="calcular()">
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
